@@ -1,0 +1,138 @@
+[
+ {
+  "id": "0",
+  "imageUrl": "/img/bronze.jpg",
+  "title": "Bronze Wash",
+  "carAge": [
+   "Older",
+   "Newer"
+  ],
+  "carSize": [
+   "Compact",
+   "Fullsize",
+   "Truck"
+  ],
+  "price": 10,
+  "category": 1,
+  "rating": 12
+ },
+ {
+  "id": "1",
+  "imageUrl": "/img/silver.jpg",
+  "title": "Silver Wash",
+  "carAge": [
+   "Older",
+   "Newer"
+  ],
+  "carSize": [
+   "Compact",
+   "Fullsize",
+   "Truck"
+  ],
+  "price": 11,
+  "category": 1,
+  "rating": 11
+ },
+ {
+  "id": "2",
+  "imageUrl": "/img/gold.jpg",
+  "title": "Gold Wash",
+  "carAge": [
+   "Older",
+   "Newer"
+  ],
+  "carSize": [
+   "Compact",
+   "Fullsize",
+   "Truck"
+  ],
+  "price": 13,
+  "category": 1,
+  "rating": 10
+ },
+ {
+  "id": "3",
+  "imageUrl": "/img/platinum.jpg",
+  "title": "Platinum Wash",
+  "carAge": [
+   "Older",
+   "Newer"
+  ],
+  "carSize": [
+   "Compact",
+   "Fullsize",
+   "Truck"
+  ],
+  "price": 15,
+  "category": 1,
+  "rating": 9
+ },
+ {
+  "id": "4",
+  "imageUrl": "/img/undercarriage.jpg",
+  "title": "Undercarriage Clean",
+  "carAge": [
+   "Older",
+   "Newer"
+  ],
+  "carSize": [
+   "Compact",
+   "Fullsize",
+   "Truck"
+  ],
+  "price": 8,
+  "category": 2,
+  "rating": 8
+ },
+ {
+  "id": "5",
+  "imageUrl": "/img/wheels.jpg",
+  "title": "Wheels Clean",
+  "carAge": [
+   "Older",
+   "Newer"
+  ],
+  "carSize": [
+   "Compact",
+   "Fullsize",
+   "Truck"
+  ],
+  "price": 7,
+  "category": 2,
+  "rating": 7
+ },
+ {
+  "id": "6",
+  "imageUrl": "/img/headlights.jpg",
+  "title": "Headlights Restoration",
+  "carAge": [
+   "Older",
+   "Newer"
+  ],
+  "carSize": [
+   "Compact",
+   "Fullsize",
+   "Truck"
+  ],
+  "price": 12,
+  "category": 3,
+  "rating": 6
+ },
+ {
+  "id": "7",
+  "imageUrl": "/img/ceramic.jpg",
+  "title": "Ceramic Coating",
+  "carAge": [
+   "Older",
+   "Newer"
+  ],
+  "carSize": [
+   "Compact",
+   "Fullsize",
+   "Truck"
+  ],
+  "price": 16,
+  "category": 3,
+  "rating": 5
+ }
+]
