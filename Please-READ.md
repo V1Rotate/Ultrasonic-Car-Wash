@@ -23,6 +23,7 @@ technology provides unmatched deep cleaning of any spot of the material\item cle
 to consider and to know before it is used. It may not be used on some materials because of the risk of damaging the surface etc. 
 
 --- WEBSITE ---
+
 So we have a car wash that provides a unique ultrasonic technology that provides an unmatched result. However, as it was mentioned above, 
 because of some features and concerns, the Ultrasonic cleaning procedure shall be selected\adjusted for every item which is going to be cleaned, 
 a car, in our car. The reason is to select or adjust the procedure time and ultrasonic frequency and its strength to not damage the car 
@@ -38,9 +39,11 @@ shown as per category selected. Also, client is welcomed to use a serching input
 services can be sorted by popularity, price or alphabet, as well as sorted in ascending or descending.
 
 --- TECHNOLOGIES USED ---
+
 TypeScript, React, Redux, SCSS, ‘MockAPI’ for Backend.
 
 ------------
+
 Thank you for your time reviewing my code.
 Please let me know if you have any questions.
 
