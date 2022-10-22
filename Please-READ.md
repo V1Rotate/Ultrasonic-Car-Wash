@@ -33,6 +33,10 @@ Also, as it is an automated menu and the Ultrasonic technology, as mentioned abo
 size needs to be selected as well: Compact, Full-Size, or Truck(Van). That might make add some more changes and adjustments, and change the 
 car wash price accordingly.  
 
+Each Car Wash (Bronze, Silver...) can be selected and moved to the cart. There are 4 categories that can be clicked and service items will be 
+shown as per category selected. Also, client is welcomed to use a serching input for easy finding a service he is looking for. In addition, all 
+services can be sorted by popularity, price or alphabet, as well as sorted in ascending or descending.
+
 --- TECHNOLOGIES USED ---
 TypeScript, React, Redux, SCSS, ‘MockAPI’ for Backend.
 
