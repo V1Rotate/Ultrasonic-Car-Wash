@@ -138,6 +138,9 @@ body {
     display: flex;
     align-items: center;
     font-size: 30px;
+    @media screen and (max-width: 420px) {
+      font-size: 22px;
+    }
 
     svg {
       position: relative;
@@ -203,6 +206,10 @@ body {
       img {
         width: 100px;
         height: 80px;
+        @media screen and (max-width: 420px) {
+          width: 70px;
+          height: 50px;
+        }
       }
     }
 
@@ -210,7 +217,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 40%;
+      max-width: 40%;
 
       h3 {
         font-weight: bold;
@@ -218,12 +225,18 @@ body {
         line-height: 27px;
         letter-spacing: 0.01em;
         margin-left: 20px;
+        @media screen and (max-width: 420px) {
+          font-size: 16px;
+        }
       }
 
       p {
         font-size: 18px;
         color: #8d8d8d;
         margin-left: 20px;
+        @media screen and (max-width: 420px) {
+          font-size: 14px;
+        }
       }
     }
 
@@ -264,6 +277,9 @@ body {
 
       b {
         font-size: 22px;
+        @media screen and (max-width: 420px) {
+          font-size: 16px;
+        }
       }
     }
 
@@ -272,11 +288,18 @@ body {
       align-items: center;
       justify-content: center;
       width: 33%;
+      @media screen and (max-width: 420px) {
+        width: 40%;
+      }
 
       b {
         font-weight: bold;
         font-size: 22px;
         letter-spacing: 0.01em;
+        @media screen and (max-width: 420px) {
+          font-size: 16px;
+          margin-left: 12px;
+        }
       }
     }
 
@@ -322,6 +345,9 @@ body {
 
       span {
         font-size: 22px;
+        @media screen and (max-width: 420px) {
+          font-size: 18px;
+        }
 
         &:last-of-type {
           b {
@@ -341,6 +367,9 @@ body {
         align-items: center;
         justify-content: center;
         width: 210px;
+        @media screen and (max-width: 420px) {
+          width: 110px;
+        }
 
         border-color: darken($color: $gray-line, $amount: 10);
 
@@ -373,17 +402,24 @@ body {
         font-weight: 600;
         width: 210px;
         padding: 16px;
+        @media screen and (max-width: 420px) {
+          width: 110px;
+        }
       }
     }
   }
 
   &--empty {
     margin: 80px auto;
-    width: 620px;
+    max-width: 620px;
     text-align: center;
 
     @media screen and (max-width: 750px) {
       max-width: 470px;
+
+      @media screen and (max-width: 500px) {
+        max-width: 350px;
+      }
     }
 
     h2 {
@@ -393,6 +429,9 @@ body {
 
       @media screen and (max-width: 750px) {
         font-size: 26px;
+      }
+      @media screen and (max-width: 5000px) {
+        font-size: 22px;
       }
     }
 
@@ -405,21 +444,31 @@ body {
       @media screen and (max-width: 750px) {
         font-size: 16px;
       }
+      @media screen and (max-width: 500px) {
+        font-size: 14px;
+      }
     }
 
     img {
       display: block;
-      width: 400px;
+      max-width: 400px;
       margin: 45px auto 60px;
       border-radius: 10px;
+      @media screen and (max-width: 500px) {
+        max-width: 250px;
+      }
     }
 
     .button--black {
       padding: 12px 0 14px;
-      width: 230px;
+      max-width: 230px;
       margin: 0 auto;
       font-weight: 600;
       font-size: 18px;
+      @media screen and (max-width: 500px) {
+        max-width: 100px;
+        font-size: 14px;
+      }
     }
   }
 }
@@ -432,10 +481,19 @@ body {
 
   &_img {
     width: 550px;
+    @media screen and (max-width: 660px) {
+      width: 400px;
+    }
+    @media screen and (max-width: 460px) {
+      width: 280px;
+    }
   }
 
   &_title {
     margin-top: 10px;
+    @media screen and (max-width: 460px) {
+      font-size: 22px;
+    }
   }
 
   &_note {
@@ -443,6 +501,10 @@ body {
     max-width: 1000px;
     line-height: 26px;
     margin: 10px;
+    @media screen and (max-width: 460px) {
+      max-width: 280px;
+      font-size: 16px;
+    }
   }
 
   &_span {
