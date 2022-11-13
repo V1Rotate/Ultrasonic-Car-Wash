@@ -1,3 +1,7 @@
+--- Technologies used ---
+
+TypeScript, React, Redux, SCSS, ‘MockAPI’ for the Backend.
+
 --- General Idea --- 
 
 I was making my purchase at the Mcdonald's terminal recently (McDonald’s coffee is so good 😊… to me) and I was thinking of how nice it would be to develop 
@@ -10,13 +14,6 @@ technology and with some special equipment used. Ultrasonic technology provides 
 ultrasonic technology has some points to consider and to know before it is used. It may not be used on some materials because of the risk of damaging the 
 surface etc.
 
---- Technologies used ---
 
-TypeScript, React, Redux, SCSS, ‘MockAPI’ for the Backend.
 
-------------
 
-Thank you for your time reviewing my code.
-Please let me know if you have any questions.
-
-Respectfully, Oleg.
