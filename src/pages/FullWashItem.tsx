@@ -17,7 +17,7 @@ const FullWashItem: React.FC = () => {
     async function fetchWashItem() {
       try {
         const { data } = await axios.get(
-          'https://63194b7e6b4c78d91b38a8f1.mockapi.io/items/' + id
+          'SECRET_API_URL' + id
         );
         setWashItem(data);
       } catch (error) {
