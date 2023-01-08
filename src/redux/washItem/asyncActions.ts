@@ -11,7 +11,7 @@ export const fetchWashItems = createAsyncThunk<
   const { sortBy, order, category, search, currentPage } = params;
   console.log(params, 4444);
   const { data } = await axios.get<WashItem[]>(
-    `https://63194b7e6b4c78d91b38a8f1.mockapi.io/items`,
+    `SECRET_API_URL`,
     {
       params: pickBy(
         {
